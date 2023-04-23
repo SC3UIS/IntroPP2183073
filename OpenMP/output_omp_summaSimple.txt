@@ -1,0 +1,16 @@
+EJECUCION EN GUANE-1
+
+Enter a positive intege: 2183
+
+Sum = 2383836
+
+--------------------------------------------------------
+
+EJECUCION EN MAQUINA LOCAL
+
+Enter a positive intege: 2183
+
+Sum = 2383836
+
+Process exited with return value 0
+Press any key to continue . . .
