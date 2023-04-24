@@ -5,3 +5,6 @@
 - Docente: ***PhD. Carlos Jaime Barrios Hernández***
 
 - Estudiante: ***Carlos Alberto Castañeda Torres***  - Cod: ***2183073***
+
+## Código original en ```C```.
+
