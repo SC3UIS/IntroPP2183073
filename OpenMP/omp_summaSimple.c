@@ -1,3 +1,7 @@
+/*
+ * Tomado de: https://github.com/carlosjaimebh/SomeExamples/blob/main/summaSimple.c
+ * */
+
 #include <stdio.h>
 #include <omp.h>
 
