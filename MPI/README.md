@@ -1,10 +1,5 @@
 # Introduction
-In the ```OpenMP``` work, we have already compiled and executed the original code ```summaSimple.c``` and the modified one with ```OpenMP```. In this case, we only have the MPI code, which can be found in this repository with the name mpi_summaSimple.c. To compile and execute it, we follow the following steps:
-Once we have requested the resources and are in the assigned working directory, we load the module. To do this, we use the following code: module load ```devtools/mpi/mpich/3.3.1.``` This allows us to compile the program.
-Once we have the new code ```mpi_summaSimple.c```, we use the following code to compile it:``` mpicc mpi_summaSimple.c -o mpi_summaSimple.```
-To execute it, we use the following code:``` mpirun -np 12 ./mpi_summaSimple.```
-To measure the execution time, we use``` time mpirun -np 12 ./mpi_summaSimple.```
-Using "time" gives you the timing for all three codes.
+Regarding the OpenMP work, the original code ```summaSimple.c``` and its modified version with OpenMP have already been compiled and executed. However, in this case, we solely have the MPI code available, specifically``` mpi_summaSimple.c```, which can be found in the repository. To compile and execute this MPI code, the following steps are followed: After requesting the necessary resources and navigating to the designated working directory, the module is loaded using the code "```module load devtools/mpi/mpich/3.3.1```". This enables the compilation of the program. Once the new code, ```mpi_summaSimple.c```, is obtained, it is compiled using the code "```mpicc mpi_summaSimple.c -o mpi_summaSimple```". Execution is carried out using the code "```mpirun -np 12 ./mpi_summaSimple```". To measure the execution time, the command "```time mpirun -np 12 ./mpi_summaSimple```" is utilized, providing the timing for all three codes.
 # Execution time of the three codes.
 ## summaSimple.c
 ![img2](https://github.com/SC3UIS/IntroPP2183073/assets/83093835/b56d5868-ec71-4719-9994-774ed6397d51)
