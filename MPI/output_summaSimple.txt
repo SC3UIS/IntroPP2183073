@@ -1,0 +1,25 @@
+Normal
+Enter a positive integer: 2183
+Sum Sum 2383836
+real    0m3.782s
+user    Om0.001s
+sys     Om0.001s
+
+-------------------------------------------------------------------
+
+OMP
+Enter a positive integer: 2183
+Sum = 2383836
+real  0m6.180s
+user  Om0.078s
+sys   Om0.002s
+
+--------------------------------------------------------------------
+
+MPI
+Enter a positive integer: 2183
+Sum = 2383836
+real  Om4.300s
+user  Om0.022s
+sys   Om0.012s
+
